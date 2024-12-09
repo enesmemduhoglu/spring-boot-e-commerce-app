@@ -1,4 +1,4 @@
-package com.ecommerce.shoppingapp.repository.es;
+package com.ecommerce.shoppingapp.product.repository.es;
 
 import com.ecommerce.shoppingapp.product.domain.es.ProductEs;
 import org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository;

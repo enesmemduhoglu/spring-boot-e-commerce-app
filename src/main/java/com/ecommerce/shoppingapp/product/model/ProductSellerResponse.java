@@ -1,14 +1,11 @@
-package com.ecommerce.shoppingapp.product.domain.es;
+package com.ecommerce.shoppingapp.product.model;
 
 import lombok.Builder;
 import lombok.Data;
 
 @Data
 @Builder
-public class CompanyEs {
-
+public class ProductSellerResponse {
     private String id;
     private String name;
-    private String code;
-
 }

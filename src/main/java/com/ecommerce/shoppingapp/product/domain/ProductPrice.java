@@ -13,6 +13,6 @@ public class ProductPrice {
     
     private String id;
     private String productId;
-    private String money;
+    private MoneyTypes moneyType;
     private String price;
 }
