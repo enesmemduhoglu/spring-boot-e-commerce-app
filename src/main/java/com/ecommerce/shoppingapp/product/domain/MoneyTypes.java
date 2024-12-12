@@ -2,8 +2,8 @@ package com.ecommerce.shoppingapp.product.domain;
 
 public enum MoneyTypes {
     USD("Dolar", "$"),
-    EUR("Euro", "€"),
-    TL("TL", "₺");
+    EUR("Euro", "E"),
+    TL("Turk Lirasi", "T");
 
     private String label;
     private String symbol;
@@ -11,5 +11,9 @@ public enum MoneyTypes {
     MoneyTypes(String label, String symbol) {
         this.label = label;
         this.symbol = symbol;
+    }
+
+    public String getSymbol() {
+        return symbol;
     }
 }
